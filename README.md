@@ -12,7 +12,8 @@
 	- how to run
 	python predict_tags_using_model_and_generators.py --test test.data --embed fastTextVectorFile --lang eng --model weight-eng-bilstm-c2w --output output_file.txt
 
-4. To cite this work:
+4. This work is a direct implementation of the [paper](https://arxiv.org/pdf/1808.03175.pdf)
+5. To cite this work:
 use this citation
 ``
 @misc{todi2018building,
@@ -24,4 +25,4 @@ use this citation
       primaryClass={cs.CL}
 }
 ``
-5. Fasttext vectors can be downloaded from [Fastext vectors](https://fasttext.cc/docs/en/crawl-vectors.html)
+6. Fasttext vectors can be downloaded from [Fastext vectors](https://fasttext.cc/docs/en/crawl-vectors.html)
